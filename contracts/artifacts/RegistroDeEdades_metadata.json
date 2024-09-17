@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nuevoNombre",
+						"type": "string"
+					}
+				],
+				"name": "actualizarNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "unaAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "unaEdad",
+						"type": "uint256"
+					}
+				],
+				"name": "asignarEdad",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "unaEdad",
+						"type": "uint256"
+					}
+				],
+				"name": "asignarMiEdad",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "unNumero",
+						"type": "uint256"
+					}
+				],
+				"name": "duplicar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fechaActual",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nombre",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "unaAddress",
+						"type": "address"
+					}
+				],
+				"name": "obtenerEdad",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/01_RegistroDeEdades.sol": "RegistroDeEdades"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/01_RegistroDeEdades.sol": {
+			"keccak256": "0xc3089af42efbf8dc725f9b7841d24e5ac44922b470365334edbadb85762c3f2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b2c5221a5e23166991082e235e5aeddf12ea8d8f6a52df47b50810d097e1b07",
+				"dweb:/ipfs/QmZks4AnZ8AnzJ8rz8GrskvVd2UEEUT2xwUByiFaxgnzRN"
+			]
+		}
+	},
+	"version": 1
+}
